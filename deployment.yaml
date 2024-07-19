@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: argocdexampleapi
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: argocdexampleapi
+  template:
+    metadata:
+      labels:
+        app: argocdexampleapi
+    spec:
+      containers:
+      - name: argocdexampleapi
+        image: argocdexampleapi:latest
+        ports:
+        - containerPort: 80

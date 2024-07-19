@@ -7,8 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArgoCDExampleAPI", "ArgoCDE
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Kubernetes", "Kubernetes", "{9671DF29-16E7-471C-9BC8-BC0FF9ABEE3B}"
 	ProjectSection(SolutionItems) = preProject
-		ArgoCDExampleAPI\Kubernates\deployment.yml = ArgoCDExampleAPI\Kubernates\deployment.yml
-		ArgoCDExampleAPI\Kubernates\service.yml = ArgoCDExampleAPI\Kubernates\service.yml
+		deployment.yaml = deployment.yaml
+		service.yaml = service.yaml
 	EndProjectSection
 EndProject
 Global
