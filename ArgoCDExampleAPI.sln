@@ -3,10 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34701.34
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArgoCDExampleAPI", "ArgoCDExampleAPI\ArgoCDExampleAPI.csproj", "{9BB51DB5-77EC-474A-BCA2-8D015EEC3611}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArgoCDExampleAPI", "ArgoCDExampleAPI\ArgoCDExampleAPI.csproj", "{9BB51DB5-77EC-474A-BCA2-8D015EEC3611}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Kubernetes", "Kubernetes", "{9671DF29-16E7-471C-9BC8-BC0FF9ABEE3B}"
 	ProjectSection(SolutionItems) = preProject
+		..\..\..\Users\02486270\Downloads\argocd-ingress.yaml = ..\..\..\Users\02486270\Downloads\argocd-ingress.yaml
 		deployment.yaml = deployment.yaml
 		service.yaml = service.yaml
 	EndProjectSection
