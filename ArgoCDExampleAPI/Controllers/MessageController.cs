@@ -65,3 +65,4 @@ namespace ArgoCDExampleAPI.Controllers
 		}
 	}
 }
+
